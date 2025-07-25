@@ -293,7 +293,7 @@ header { /* <header> */
 }
 
 /* Responsivo */
-@media (max-width: 768px) {
+@media (max-width: 600px) {
   .carousel img { /* <img> dentro de .carousel em telas pequenas */
     height: auto;
     width: 100%;

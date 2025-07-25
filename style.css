@@ -307,7 +307,7 @@ header {
   background-color: var(--cinza-escuro);
   color: var(--general-font-color);
   display: flex;
-  height: 20vh;
+  height: 30%;
   flex-direction: column;
   align-items: center;
   justify-content: center;

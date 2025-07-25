@@ -254,7 +254,7 @@ header {
 }
 
 /* depoimento-box_container */
-.depoimento-box_container {
+.depoimento-box_container1, .depoimento-box_container2, .depoimento-box_container3, .depoimento-box_container4 {
   /* <div class="depoimento-box_container"> */
   background-color: var(--cta-btn-bgcolor);
   border-radius: 20px;
@@ -307,7 +307,7 @@ header {
   background-color: var(--cinza-escuro);
   color: var(--general-font-color);
   display: flex;
-  height: 100vh;
+  height: 20vh;
   flex-direction: column;
   align-items: center;
   justify-content: center;
@@ -341,6 +341,9 @@ header {
 
 /* Responsivo */
 @media (max-width: 600px) {
+.depoimento-box_container4{
+  display: none;
+}
   .carousel img {
     /* <img> dentro de .carousel em telas pequenas */
     height: auto;

@@ -39,7 +39,7 @@ header {
   color: #eaeaea;
   display: flex;
   justify-content: center;
-  margin-bottom: 20px;
+  margin: 20px 0 20px 0;
 }
 
 /* header-logo_text img */

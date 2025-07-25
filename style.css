@@ -285,6 +285,12 @@ header { /* <header> */
   list-style: none;
   text-align: center;
 }
+.contact-section_text p {
+  text-align: center;
+}
+.contact-sect_title{
+  font-size: var(--text-size);
+}
 
 /* Responsivo */
 @media (max-width: 768px) {
@@ -298,5 +304,24 @@ header { /* <header> */
   }
   .depoimento-group_container { /* <div class="depoimento-group_container"> em telas pequenas */
     width: 100%;
+  }
+  /* Font size for mobile */
+  .nav-links a { /* <a> dentro de .nav-links em telas pequenas */
+    font-size: 1rem;
+    margin: 0 20px;
+    width: auto;
+  }
+  .galery-title { /* <h2 class="memories-title"> em telas pequenas */
+    font-size: 1.5rem;
+  }
+  .depoimentos-sect_title { /* <h2 class="depoimentos-sect_title"> em telas pequenas */
+    font-size: 1.5rem;
+  }
+  .contact-sect_title { /* <div class="contact-sect_title"> em telas pequenas */
+    font-size: 1.5rem;
+  }
+  .contact-section_text p { /* <p> dentro de .contact-section_text em telas pequenas */
+    font-size: 1rem;
+    text-align: center;
   }
 }

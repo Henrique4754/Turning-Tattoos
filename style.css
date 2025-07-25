@@ -307,10 +307,11 @@ header {
   background-color: var(--cinza-escuro);
   color: var(--general-font-color);
   display: flex;
-  height: 30%;
+  height: 100vh;
   flex-direction: column;
   align-items: center;
   justify-content: center;
+  padding: 10px;
 }
 .contact-info {
   /* <div class="contact-info"> */

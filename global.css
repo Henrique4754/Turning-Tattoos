@@ -19,6 +19,13 @@ a {
   text-decoration: none;
 }
 /* Global Style for cta buttons */
+.cta-button-container {
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 20px 0;
+}
 .cta-button {
   background-color: var(--cta-btn-bgcolor);
   padding: 10px 30px;

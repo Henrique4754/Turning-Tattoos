@@ -1,0 +1,46 @@
+@import url(var.css);
+body {
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Montserrat",
+    "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue",
+    sans-serif;
+}
+/* Global font sizes based on var configurations */
+p {
+  font-size: var(--text-size);
+}
+h1 {
+  font-size: var(--h1-size);
+}
+h2 {
+  font-size: var(--h2-size);
+}
+a {
+  font-size: var(--nav-text-size);
+  text-decoration: none;
+}
+/* Global Style for cta buttons */
+.cta-button {
+  background-color: var(--cta-btn-bgcolor);
+  padding: 10px 30px;
+  border-radius: 9999px;
+  color: var(--cta-btn-text-color);
+  text-align: center;
+  font-weight: 600;
+  transition: 0.2s linear;
+}
+.cta-button:hover {
+  border-top-right-radius: 5000px;
+  border-bottom-left-radius: 5000px;
+  
+}
+/* Change the rating stars color */
+.checked{
+    color: var(--cta-btn-text-color);
+}
+footer> p{
+  font-size: 1rem;
+  background-color: black;
+  color: var(--general-font-color);
+  padding: 10px;
+  text-align: center;
+}

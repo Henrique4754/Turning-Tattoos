@@ -1,0 +1,16 @@
+:root{
+    --text-size:2rem;
+    --h1-size: 4rem;
+    --h2-size: 3rem;
+    --nav-text-size: 1.7rem;
+    --nav-mobile-text-size: 1rem;
+    --general-font-color: #eaeaea;
+    --hero-gradient-start: rgba(48, 48, 48, 0.5);
+    --hero-gradient-end: #161616;
+    --cinza-escuro: #161616;
+    --cta-btn-bgcolor: #ffd700;
+    --cards-brcolor: #ffd700;
+    --cta-btn-text-color: #191970;
+
+    
+}

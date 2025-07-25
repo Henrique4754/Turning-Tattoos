@@ -210,7 +210,7 @@ header {
 /* depoimentos-section_bg */
 .depoimentos-section_bg {
   /* <div class="depoimentos-section_bg"> */
-  height: 100%;
+  height: 100vh;
   object-fit: cover;
   position: absolute;
   object-position: center;

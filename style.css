@@ -342,7 +342,9 @@ header {
 
 /* Responsivo */
 @media (max-width: 600px) {
-
+  .depoimento-box_container4{
+  display: none;
+}
   .carousel img {
     /* <img> dentro de .carousel em telas pequenas */
     height: auto;
